@@ -290,7 +290,7 @@ def main(
         st.balloons()
         st.image('1.jpg', width=700)
         st.image('2.jpg', width=700)
-        st.image('3.jpg', width=700)
+        st.image('3.jpeg', width=700)
         time.sleep(2.5)
 
 if __name__ == '__main__':
