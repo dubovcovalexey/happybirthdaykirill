@@ -248,15 +248,15 @@ def main(
     photo = st.sidebar.selectbox('Тебя поздравляют:',  ['Маргарита', 'Егор', 'Ангелина', 'Леша', 'Наташа', 'Чубакка'])
     if photo == 'Маргарита':
         st.sidebar.image('7.png')
-    if Gen == 'Егор':
+    if photo == 'Егор':
         st.sidebar.image('5.png')
-    if Gen == 'Ангелина':
+    if photo == 'Ангелина':
         st.sidebar.image('4.png')
-    if Gen == 'Лёша':
+    if photo == 'Лёша':
         st.sidebar.image('6.png')
-    if Gen == 'Наташа':
+    if photo == 'Наташа':
         st.sidebar.image('8.png')
-    if Gen == 'Чубакка':
+    if photo == 'Чубакка':
         st.sidebar.image('9.png')
    
     
