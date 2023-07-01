@@ -245,7 +245,6 @@ def main(
     
     st.sidebar.title('Кирилл, с Днем Рождения!')
     st.sidebar.image('HB2.jpg')
-    st.sidebar.info('От всех:)')
     
     
     st.markdown("<h1 style='text-align: center; '>С Днем Рождения, не молождежь!</h1>", unsafe_allow_html = True)
