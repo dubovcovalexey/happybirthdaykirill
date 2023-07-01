@@ -244,14 +244,21 @@ def main(
     
     
     st.sidebar.title('Кирилл, с Днем Рождения!')
-    st.sidebar.image('7.png')
-    st.sidebar.image('5.png')
-    st.sidebar.image('4.png')
-    st.sidebar.image('6.png')
-    st.sidebar.image('8.png')
-    st.sidebar.image('9.png')
-
-    
+    st.sidebar.image('HB2.png')
+    photo = st.selectbox('Тебя поздравляют:',  ['Маргарита', 'Егор', 'Ангелина', 'Леша', 'Наташа', 'Чубакка'])
+    if Gen == 'Маргарита':
+        photo = st.sidebar.image('7.png')
+    if Gen == 'Егор':
+        photo = st.sidebar.image('5.png')
+    if Gen == 'Ангелина':
+        photo = st.sidebar.image('4.png')
+    if Gen == 'Лёша':
+        photo = st.sidebar.image('6.png')
+    if Gen == 'Наташа':
+        photo = st.sidebar.image('8.png')
+    if Gen == 'Чубакка':
+        photo = st.sidebar.image('9.png')
+   
     
     st.markdown("<h1 style='text-align: center; '>С Днем Рождения, не молождежь!</h1>", unsafe_allow_html = True)
     st.markdown("<h1 style='text-align: center; '>Возраст лишь у тебя в голове😁</h1>", unsafe_allow_html = True)
