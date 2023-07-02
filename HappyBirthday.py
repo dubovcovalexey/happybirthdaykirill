@@ -244,8 +244,9 @@ def main(
     
     
     st.sidebar.title('Кирилл, с Днем Рождения!')
-    st.sidebar.image('HB2.jpg')
-    photo = st.sidebar.selectbox('Тебя поздравляют:',  ['Маргарита', 'Егор', 'Ангелина', 'Лёша', 'Наташа', 'Чубакка'])
+    photo = st.sidebar.selectbox('Тебя поздравляют:',  ['Тут все', 'Маргарита', 'Егор', 'Ангелина', 'Лёша', 'Наташа', 'Чубакка'])
+    if photo == 'Тут все':
+        st.sidebar.image('HB2.jpg')
     if photo == 'Маргарита':
         st.sidebar.image('7.png')
     if photo == 'Егор':
