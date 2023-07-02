@@ -35,13 +35,6 @@ rain(
     animation_length="infinite",
 )
 
-rain(
-    emoji="🎂",
-    font_size=30,
-    falling_speed=5,
-    animation_length="infinite",
-)
-
 
 
 def main(
